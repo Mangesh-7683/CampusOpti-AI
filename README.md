@@ -2,19 +2,7 @@
 
 ### Intelligent Campus Timetable & Resource Optimization System
 
-\<p align="center">
-&#x20; \<b>Smarter Scheduling. Better Resource Utilization. Conflict-Free Timetables.\</b>
-\</p>
 
-\<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white](https://img.shields.io/badge/Python-3.10+-blue?logo=python\&logoColor=white)" />
-&#x20; \<img src="[https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi&logoColor=white](https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi\&logoColor=white)" />
-&#x20; \<img src="[https://img.shields.io/badge/Google_OR--Tools-CP--SAT-4285F4?logo=google&logoColor=white](https://img.shields.io/badge/Google_OR--Tools-CP--SAT-4285F4?logo=google\&logoColor=white)" />
-&#x20; \<img src="[https://img.shields.io/badge/Optimization-AI%20%26%20Algorithms-purple](https://img.shields.io/badge/Optimization-AI%20%26%20Algorithms-purple)" />
-&#x20; \<img src="[https://img.shields.io/badge/Status-Completed-success](https://img.shields.io/badge/Status-Completed-success)" />
-\</p>
-
----
 
 ## 📌 Overview
 
