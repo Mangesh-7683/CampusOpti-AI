@@ -1,0 +1,140 @@
+batch_id,subject_id,subject_name,faculty_id,room_id,slot_id,day,time
+B006,S008,Operating Systems,F008,R002,T01,Monday,09:00-10:00
+B006,S008,Operating Systems,F008,R002,T02,Monday,10:00-11:00
+B006,S008,Operating Systems,F008,R002,T03,Monday,11:15-12:15
+B006,S014,Data Mining,F014,R002,T05,Monday,14:00-15:00
+B006,S014,Data Mining,F014,R002,T06,Monday,15:00-16:00
+B006,S014,Data Mining,F014,R002,T07,Tuesday,09:00-10:00
+B006,S013,Cloud Computing,F013,R011,T04,Monday,12:15-13:15
+B006,S013,Cloud Computing,F013,R011,T09,Tuesday,11:15-12:15
+B006,S013,Cloud Computing,F013,R011,T10,Tuesday,12:15-13:15
+B006,S006,Artificial Intelligence,F006,R002,T08,Tuesday,10:00-11:00
+B006,S006,Artificial Intelligence,F006,R002,T12,Tuesday,15:00-16:00
+B006,S006,Artificial Intelligence,F006,R002,T13,Wednesday,09:00-10:00
+B006,S010,Web Technology,F010,R011,T11,Tuesday,14:00-15:00
+B006,S010,Web Technology,F010,R011,T14,Wednesday,10:00-11:00
+B006,S010,Web Technology,F010,R011,T16,Wednesday,12:15-13:15
+B006,S012,Software Engineering,F012,R002,T15,Wednesday,11:15-12:15
+B006,S012,Software Engineering,F012,R002,T17,Wednesday,14:00-15:00
+B006,S012,Software Engineering,F012,R002,T18,Wednesday,15:00-16:00
+B006,S012,Software Engineering,F012,R002,T19,Thursday,09:00-10:00
+B001,S010,Web Technology,F010,R011,T02,Monday,10:00-11:00
+B001,S010,Web Technology,F010,R011,T03,Monday,11:15-12:15
+B001,S010,Web Technology,F010,R012,T04,Monday,12:15-13:15
+B001,S008,Operating Systems,F008,R006,T07,Tuesday,09:00-10:00
+B001,S008,Operating Systems,F008,R006,T08,Tuesday,10:00-11:00
+B001,S008,Operating Systems,F008,R002,T09,Tuesday,11:15-12:15
+B001,S012,Software Engineering,F012,R006,T05,Monday,14:00-15:00
+B001,S012,Software Engineering,F012,R006,T06,Monday,15:00-16:00
+B001,S012,Software Engineering,F012,R002,T10,Tuesday,12:15-13:15
+B001,S012,Software Engineering,F012,R002,T11,Tuesday,14:00-15:00
+B001,S015,Cyber Security,F015,R006,T01,Monday,09:00-10:00
+B001,S015,Cyber Security,F015,R006,T12,Tuesday,15:00-16:00
+B001,S015,Cyber Security,F015,R006,T13,Wednesday,09:00-10:00
+B001,S003,DBMS,F003,R002,T14,Wednesday,10:00-11:00
+B001,S003,DBMS,F003,R006,T15,Wednesday,11:15-12:15
+B001,S007,Computer Networks,F007,R002,T16,Wednesday,12:15-13:15
+B001,S007,Computer Networks,F007,R006,T18,Wednesday,15:00-16:00
+B001,S007,Computer Networks,F007,R006,T19,Thursday,09:00-10:00
+B003,S010,Web Technology,F010,R011,T05,Monday,14:00-15:00
+B003,S010,Web Technology,F010,R011,T07,Tuesday,09:00-10:00
+B003,S010,Web Technology,F010,R011,T08,Tuesday,10:00-11:00
+B003,S009,Statistics,F009,R006,T02,Monday,10:00-11:00
+B003,S009,Statistics,F009,R006,T03,Monday,11:15-12:15
+B003,S009,Statistics,F009,R002,T04,Monday,12:15-13:15
+B003,S007,Computer Networks,F007,R006,T09,Tuesday,11:15-12:15
+B003,S007,Computer Networks,F007,R006,T10,Tuesday,12:15-13:15
+B003,S007,Computer Networks,F007,R006,T14,Wednesday,10:00-11:00
+B003,S003,DBMS,F003,R006,T16,Wednesday,12:15-13:15
+B003,S003,DBMS,F003,R006,T17,Wednesday,14:00-15:00
+B003,S011,Deep Learning,F011,R011,T01,Monday,09:00-10:00
+B003,S011,Deep Learning,F011,R011,T06,Monday,15:00-16:00
+B003,S008,Operating Systems,F008,R002,T20,Thursday,10:00-11:00
+B003,S008,Operating Systems,F008,R002,T21,Thursday,11:15-12:15
+B003,S008,Operating Systems,F008,R002,T22,Thursday,12:15-13:15
+B002,S013,Cloud Computing,F013,R012,T01,Monday,09:00-10:00
+B002,S013,Cloud Computing,F013,R012,T02,Monday,10:00-11:00
+B002,S013,Cloud Computing,F013,R012,T07,Tuesday,09:00-10:00
+B002,S010,Web Technology,F010,R012,T09,Tuesday,11:15-12:15
+B002,S010,Web Technology,F010,R011,T13,Wednesday,09:00-10:00
+B002,S010,Web Technology,F010,R011,T17,Wednesday,14:00-15:00
+B008,S013,Cloud Computing,F013,R012,T14,Wednesday,10:00-11:00
+B008,S013,Cloud Computing,F013,R011,T15,Wednesday,11:15-12:15
+B008,S013,Cloud Computing,F013,R012,T16,Wednesday,12:15-13:15
+B008,S011,Deep Learning,F011,R014,T02,Monday,10:00-11:00
+B008,S011,Deep Learning,F011,R014,T07,Tuesday,09:00-10:00
+B005,S002,Machine Learning,F002,R014,T01,Monday,09:00-10:00
+B005,S002,Machine Learning,F002,R012,T03,Monday,11:15-12:15
+B005,S002,Machine Learning,F002,R014,T04,Monday,12:15-13:15
+B005,S011,Deep Learning,F011,R012,T08,Tuesday,10:00-11:00
+B005,S011,Deep Learning,F011,R014,T09,Tuesday,11:15-12:15
+B007,S001,Python,F001,R013,T01,Monday,09:00-10:00
+B007,S001,Python,F001,R013,T03,Monday,11:15-12:15
+B007,S001,Python,F001,R013,T04,Monday,12:15-13:15
+B007,S001,Python,F001,R012,T05,Monday,14:00-15:00
+B007,S013,Cloud Computing,F013,R011,T19,Thursday,09:00-10:00
+B007,S013,Cloud Computing,F013,R011,T20,Thursday,10:00-11:00
+B007,S013,Cloud Computing,F013,R011,T22,Thursday,12:15-13:15
+B007,S002,Machine Learning,F002,R013,T07,Tuesday,09:00-10:00
+B007,S002,Machine Learning,F002,R013,T08,Tuesday,10:00-11:00
+B007,S002,Machine Learning,F002,R012,T10,Tuesday,12:15-13:15
+B004,S002,Machine Learning,F002,R012,T13,Wednesday,09:00-10:00
+B004,S002,Machine Learning,F002,R013,T14,Wednesday,10:00-11:00
+B004,S002,Machine Learning,F002,R012,T15,Wednesday,11:15-12:15
+B004,S013,Cloud Computing,F013,R011,T25,Friday,09:00-10:00
+B004,S013,Cloud Computing,F013,R011,T27,Friday,11:15-12:15
+B004,S013,Cloud Computing,F013,R011,T28,Friday,12:15-13:15
+B004,S001,Python,F001,R014,T08,Tuesday,10:00-11:00
+B004,S001,Python,F001,R013,T09,Tuesday,11:15-12:15
+B004,S001,Python,F001,R013,T10,Tuesday,12:15-13:15
+B004,S001,Python,F001,R012,T11,Tuesday,14:00-15:00
+B002,S006,Artificial Intelligence,F006,R004,T03,Monday,11:15-12:15
+B002,S006,Artificial Intelligence,F006,R004,T04,Monday,12:15-13:15
+B002,S006,Artificial Intelligence,F006,R004,T10,Tuesday,12:15-13:15
+B002,S009,Statistics,F009,R004,T05,Monday,14:00-15:00
+B002,S009,Statistics,F009,R004,T08,Tuesday,10:00-11:00
+B002,S009,Statistics,F009,R004,T11,Tuesday,14:00-15:00
+B002,S007,Computer Networks,F007,R004,T06,Monday,15:00-16:00
+B002,S007,Computer Networks,F007,R004,T12,Tuesday,15:00-16:00
+B002,S007,Computer Networks,F007,R004,T20,Thursday,10:00-11:00
+B002,S008,Operating Systems,F008,R004,T14,Wednesday,10:00-11:00
+B002,S008,Operating Systems,F008,R004,T15,Wednesday,11:15-12:15
+B002,S008,Operating Systems,F008,R004,T16,Wednesday,12:15-13:15
+B008,S014,Data Mining,F014,R007,T03,Monday,11:15-12:15
+B008,S014,Data Mining,F014,R007,T08,Tuesday,10:00-11:00
+B008,S014,Data Mining,F014,R004,T09,Tuesday,11:15-12:15
+B008,S004,Data Structures,F004,R004,T01,Monday,09:00-10:00
+B008,S004,Data Structures,F004,R006,T04,Monday,12:15-13:15
+B008,S004,Data Structures,F004,R007,T06,Monday,15:00-16:00
+B008,S003,DBMS,F003,R007,T05,Monday,14:00-15:00
+B008,S003,DBMS,F003,R007,T10,Tuesday,12:15-13:15
+B008,S009,Statistics,F009,R007,T12,Tuesday,15:00-16:00
+B008,S009,Statistics,F009,R004,T13,Wednesday,09:00-10:00
+B008,S009,Statistics,F009,R004,T17,Wednesday,14:00-15:00
+B005,S005,Mathematics,F005,R004,T02,Monday,10:00-11:00
+B005,S005,Mathematics,F005,R009,T05,Monday,14:00-15:00
+B005,S005,Mathematics,F005,R009,T06,Monday,15:00-16:00
+B005,S006,Artificial Intelligence,F006,R004,T07,Tuesday,09:00-10:00
+B005,S006,Artificial Intelligence,F006,R007,T14,Wednesday,10:00-11:00
+B005,S006,Artificial Intelligence,F006,R007,T15,Wednesday,11:15-12:15
+B005,S003,DBMS,F003,R009,T12,Tuesday,15:00-16:00
+B005,S003,DBMS,F003,R004,T19,Thursday,09:00-10:00
+B005,S014,Data Mining,F014,R009,T10,Tuesday,12:15-13:15
+B005,S014,Data Mining,F014,R006,T11,Tuesday,14:00-15:00
+B005,S014,Data Mining,F014,R007,T13,Wednesday,09:00-10:00
+B007,S004,Data Structures,F004,R005,T02,Monday,10:00-11:00
+B007,S004,Data Structures,F004,R005,T09,Tuesday,11:15-12:15
+B007,S004,Data Structures,F004,R005,T11,Tuesday,14:00-15:00
+B007,S008,Operating Systems,F008,R002,T25,Friday,09:00-10:00
+B007,S008,Operating Systems,F008,R002,T27,Friday,11:15-12:15
+B007,S008,Operating Systems,F008,R002,T29,Friday,14:00-15:00
+B007,S015,Cyber Security,F015,R005,T06,Monday,15:00-16:00
+B007,S015,Cyber Security,F015,R005,T14,Wednesday,10:00-11:00
+B007,S015,Cyber Security,F015,R005,T17,Wednesday,14:00-15:00
+B004,S007,Computer Networks,F007,R003,T01,Monday,09:00-10:00
+B004,S007,Computer Networks,F007,R003,T03,Monday,11:15-12:15
+B004,S007,Computer Networks,F007,R003,T21,Thursday,11:15-12:15
+B004,S012,Software Engineering,F012,R003,T02,Monday,10:00-11:00
+B004,S012,Software Engineering,F012,R003,T07,Tuesday,09:00-10:00
+B004,S012,Software Engineering,F012,R003,T20,Thursday,10:00-11:00
+B004,S012,Software Engineering,F012,R003,T22,Thursday,12:15-13:15

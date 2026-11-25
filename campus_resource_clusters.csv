@@ -1,0 +1,49 @@
+batch_id,subject_id,faculty_id,lectures_per_week,required_room_type,department,semester,student_count,subject_name,faculty_weekly_load,faculty_available_slots,available_room_capacity,is_lab,capacity_difference,Cluster
+B001,S010,F010,3,Lab,AIDS,3,67,Web Technology,12,25,65,1,-2,0
+B001,S008,F008,3,Classroom,AIDS,3,67,Operating Systems,18,27,78,0,11,0
+B001,S012,F012,4,Classroom,AIDS,3,67,Software Engineering,12,25,78,0,11,0
+B001,S015,F015,3,Classroom,AIDS,3,67,Cyber Security,6,25,78,0,11,0
+B001,S003,F003,2,Classroom,AIDS,3,67,DBMS,8,28,78,0,11,1
+B001,S007,F007,3,Classroom,AIDS,3,67,Computer Networks,12,24,78,0,11,0
+B002,S006,F006,3,Classroom,AIDS,3,54,Artificial Intelligence,9,25,78,0,24,0
+B002,S009,F009,3,Classroom,AIDS,3,54,Statistics,9,27,78,0,24,0
+B002,S007,F007,3,Classroom,AIDS,3,54,Computer Networks,12,24,78,0,24,0
+B002,S008,F008,3,Classroom,AIDS,3,54,Operating Systems,18,27,78,0,24,0
+B002,S013,F013,3,Lab,AIDS,3,54,Cloud Computing,15,23,65,1,11,0
+B002,S010,F010,3,Lab,AIDS,3,54,Web Technology,12,25,65,1,11,0
+B003,S010,F010,3,Lab,AIDS,4,67,Web Technology,12,25,65,1,-2,0
+B003,S009,F009,3,Classroom,AIDS,4,67,Statistics,9,27,78,0,11,0
+B003,S007,F007,3,Classroom,AIDS,4,67,Computer Networks,12,24,78,0,11,0
+B003,S003,F003,2,Classroom,AIDS,4,67,DBMS,8,28,78,0,11,1
+B003,S011,F011,2,Lab,AIDS,4,67,Deep Learning,6,27,65,1,-2,1
+B003,S008,F008,3,Classroom,AIDS,4,67,Operating Systems,18,27,78,0,11,0
+B004,S002,F002,3,Lab,AIDS,4,46,Machine Learning,9,26,65,1,19,2
+B004,S007,F007,3,Classroom,AIDS,4,46,Computer Networks,12,24,78,0,32,2
+B004,S013,F013,3,Lab,AIDS,4,46,Cloud Computing,15,23,65,1,19,2
+B004,S001,F001,4,Lab,AIDS,4,46,Python,8,24,65,1,19,2
+B004,S008,F008,3,Classroom,AIDS,4,46,Operating Systems,18,27,78,0,32,0
+B004,S012,F012,4,Classroom,AIDS,4,46,Software Engineering,12,25,78,0,32,2
+B005,S005,F005,3,Classroom,AIDS,5,51,Mathematics,3,21,78,0,27,2
+B005,S006,F006,3,Classroom,AIDS,5,51,Artificial Intelligence,9,25,78,0,27,2
+B005,S003,F003,2,Classroom,AIDS,5,51,DBMS,8,28,78,0,27,1
+B005,S014,F014,3,Classroom,AIDS,5,51,Data Mining,9,26,78,0,27,2
+B005,S002,F002,3,Lab,AIDS,5,51,Machine Learning,9,26,65,1,14,2
+B005,S011,F011,2,Lab,AIDS,5,51,Deep Learning,6,27,65,1,14,1
+B006,S008,F008,3,Classroom,AIDS,5,68,Operating Systems,18,27,78,0,10,0
+B006,S014,F014,3,Classroom,AIDS,5,68,Data Mining,9,26,78,0,10,0
+B006,S013,F013,3,Lab,AIDS,5,68,Cloud Computing,15,23,65,1,-3,0
+B006,S006,F006,3,Classroom,AIDS,5,68,Artificial Intelligence,9,25,78,0,10,0
+B006,S010,F010,3,Lab,AIDS,5,68,Web Technology,12,25,65,1,-3,0
+B006,S012,F012,4,Classroom,AIDS,5,68,Software Engineering,12,25,78,0,10,0
+B007,S004,F004,3,Classroom,AIDS,6,47,Data Structures,6,26,78,0,31,2
+B007,S001,F001,4,Lab,AIDS,6,47,Python,8,24,65,1,18,2
+B007,S013,F013,3,Lab,AIDS,6,47,Cloud Computing,15,23,65,1,18,2
+B007,S002,F002,3,Lab,AIDS,6,47,Machine Learning,9,26,65,1,18,2
+B007,S008,F008,3,Classroom,AIDS,6,47,Operating Systems,18,27,78,0,31,2
+B007,S015,F015,3,Classroom,AIDS,6,47,Cyber Security,6,25,78,0,31,2
+B008,S014,F014,3,Classroom,AIDS,6,54,Data Mining,9,26,78,0,24,2
+B008,S013,F013,3,Lab,AIDS,6,54,Cloud Computing,15,23,65,1,11,2
+B008,S011,F011,2,Lab,AIDS,6,54,Deep Learning,6,27,65,1,11,1
+B008,S004,F004,3,Classroom,AIDS,6,54,Data Structures,6,26,78,0,24,2
+B008,S003,F003,2,Classroom,AIDS,6,54,DBMS,8,28,78,0,24,1
+B008,S009,F009,3,Classroom,AIDS,6,54,Statistics,9,27,78,0,24,2

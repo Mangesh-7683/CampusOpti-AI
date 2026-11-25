@@ -1,0 +1,10 @@
+Metric,Greedy Algorithm,Genetic Algorithm,OR-Tools CP-SAT
+Total Required Lectures,142.0,142.0,142.0
+Scheduled Lectures,139.0,139.0,139.0
+Unscheduled Lectures,3.0,3.0,3.0
+Scheduling Percentage,97.89,97.89,97.89
+Room Utilisation,33.1,33.1,33.1
+Execution Time (seconds),1.4534,1.6297,9.5391
+Batch Clashes,0.0,0.0,0.0
+Faculty Clashes,0.0,0.0,0.0
+Room Clashes,0.0,0.0,0.0

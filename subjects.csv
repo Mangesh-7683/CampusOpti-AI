@@ -1,0 +1,16 @@
+subject_id,subject_name,required_lectures_per_week,required_room_type
+S001,Python,4,Lab
+S002,Machine Learning,3,Lab
+S003,DBMS,2,Classroom
+S004,Data Structures,3,Classroom
+S005,Mathematics,3,Classroom
+S006,Artificial Intelligence,3,Classroom
+S007,Computer Networks,3,Classroom
+S008,Operating Systems,3,Classroom
+S009,Statistics,3,Classroom
+S010,Web Technology,3,Lab
+S011,Deep Learning,2,Lab
+S012,Software Engineering,4,Classroom
+S013,Cloud Computing,3,Lab
+S014,Data Mining,3,Classroom
+S015,Cyber Security,3,Classroom

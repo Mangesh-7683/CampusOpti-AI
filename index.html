@@ -1,0 +1,415 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>CampusOpti AI | Smart Campus Management</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<div class="app-container">
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div class="brand">
+            <h1>CampusOpti <span>AI</span></h1>
+            <p>SMART CAMPUS MANAGEMENT</p>
+        </div>
+
+        <div class="nav-title">MAIN MENU</div>
+
+        <nav class="nav-menu">
+
+            <a href="#overview" class="nav-link active">
+                <span>01</span> Overview
+            </a>
+
+            <a href="#algorithms" class="nav-link">
+                <span>02</span> Algorithm Comparison
+            </a>
+
+            <a href="#timetable" class="nav-link">
+                <span>03</span> Optimised Timetable
+            </a>
+
+            <a href="#unscheduled" class="nav-link">
+                <span>04</span> Unscheduled Lectures
+            </a>
+
+            <a href="#resources" class="nav-link">
+                <span>05</span> Campus Resources
+            </a>
+
+        </nav>
+
+        <div class="sidebar-footer">
+            <p>AI-Powered Optimisation</p>
+            <p>Version 1.0</p>
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main class="main-content">
+
+        <!-- TOP HEADER -->
+
+        <header class="topbar">
+
+            <div class="page-heading">
+                <h1>CampusOpti AI Dashboard</h1>
+                <p>Campus Timetable & Resource Optimisation</p>
+            </div>
+
+            <div class="system-status">
+                <span class="status-dot"></span>
+                System Online
+            </div>
+
+        </header>
+
+
+        <!-- OVERVIEW -->
+
+        <section id="overview" class="section">
+
+            <div class="section-header">
+                <div>
+                    <h2>Performance Overview</h2>
+                    <p>Real-time project statistics</p>
+                </div>
+            </div>
+
+
+            <div class="stats-grid">
+
+                <div class="stat-card blue">
+                    <p>Total Lectures</p>
+                    <h2 id="totalLectures">--</h2>
+                    <span>Weekly lecture demand</span>
+                </div>
+
+                <div class="stat-card green">
+                    <p>Scheduled Lectures</p>
+                    <h2 id="scheduledLectures">--</h2>
+                    <span>Successfully allocated</span>
+                </div>
+
+                <div class="stat-card orange">
+                    <p>Unscheduled Lectures</p>
+                    <h2 id="unscheduledLectures">--</h2>
+                    <span>Require attention</span>
+                </div>
+
+                <div class="stat-card purple">
+                    <p>Scheduling Percentage</p>
+                    <h2 id="schedulingPercentage">--</h2>
+                    <span>Scheduling success rate</span>
+                </div>
+
+                <div class="stat-card blue">
+                    <p>Room Utilisation</p>
+                    <h2 id="roomUtilisation">--</h2>
+                    <span>Available room-slot capacity</span>
+                </div>
+
+                <div class="stat-card green">
+                    <p>Total Faculty</p>
+                    <h2 id="totalFaculty">--</h2>
+                    <span>Faculty members</span>
+                </div>
+
+                <div class="stat-card orange">
+                    <p>Total Classrooms</p>
+                    <h2 id="totalClassrooms">--</h2>
+                    <span>Classrooms and laboratories</span>
+                </div>
+
+                <div class="stat-card purple">
+                    <p>Student Batches</p>
+                    <h2 id="totalBatches">--</h2>
+                    <span>Academic batches</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ALGORITHM COMPARISON -->
+
+        <section id="algorithms" class="section">
+
+            <div class="section-header">
+                <div>
+                    <h2>Algorithm Performance</h2>
+                    <p>Comparison of optimisation techniques</p>
+                </div>
+            </div>
+
+            <div class="charts-grid">
+
+                <div class="chart-card">
+                    <h3>Scheduling Performance</h3>
+                    <div id="schedulingChart" class="chart"></div>
+                </div>
+
+                <div class="chart-card">
+                    <h3>Algorithm Execution Time</h3>
+                    <div id="executionChart" class="chart"></div>
+                </div>
+
+            </div>
+
+            <div class="table-container algorithm-table-container">
+
+                <h3>Algorithm Comparison Details</h3>
+
+                <div class="table-scroll">
+
+                    <table>
+
+                        <thead id="algorithmHead"></thead>
+
+                        <tbody id="algorithmBody">
+                            <tr>
+                                <td colspan="10">Loading algorithm results...</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- OPTIMISED TIMETABLE -->
+
+        <section id="timetable" class="section">
+
+            <div class="section-header">
+                <div>
+                    <h2>Optimised Timetable</h2>
+                    <p>Generated using OR-Tools CP-SAT</p>
+                </div>
+
+                <span class="section-count" id="timetableCount">
+                    Loading...
+                </span>
+            </div>
+
+
+            <div class="table-container">
+
+                <div class="table-controls">
+
+                    <div class="filter-group">
+
+                        <select id="batchFilter">
+                            <option value="all">All Batches</option>
+                        </select>
+
+                        <select id="dayFilter">
+
+                            <option value="all">All Days</option>
+                            <option value="Monday">Monday</option>
+                            <option value="Tuesday">Tuesday</option>
+                            <option value="Wednesday">Wednesday</option>
+                            <option value="Thursday">Thursday</option>
+                            <option value="Friday">Friday</option>
+
+                        </select>
+
+                    </div>
+
+                    <button id="downloadTimetable">
+                        Download CSV
+                    </button>
+
+                </div>
+
+
+                <div class="table-scroll">
+
+                    <table id="timetableTable">
+
+                        <thead>
+
+                            <tr>
+                                <th>Batch</th>
+                                <th>Subject</th>
+                                <th>Faculty</th>
+                                <th>Room</th>
+                                <th>Day</th>
+                                <th>Time</th>
+                                <th>Slot ID</th>
+                            </tr>
+
+                        </thead>
+
+                        <tbody id="timetableBody">
+
+                            <tr>
+                                <td colspan="7">Loading timetable...</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- UNSCHEDULED LECTURES -->
+
+        <section id="unscheduled" class="section">
+
+            <div class="section-header">
+                <div>
+                    <h2>Unscheduled Lecture Analysis</h2>
+                    <p>Understanding remaining scheduling demand</p>
+                </div>
+
+                <span class="warning-label">Needs Attention</span>
+            </div>
+
+
+            <div class="unscheduled-summary">
+
+                <div>
+                    <p>Total Unscheduled Lectures</p>
+                    <h2 id="unscheduledAnalysisCount">--</h2>
+                </div>
+
+                <div>
+                    <p>Optimisation Status</p>
+                    <h2>OPTIMAL</h2>
+                </div>
+
+            </div>
+
+
+            <div class="table-container">
+
+                <div class="table-scroll">
+
+                    <table>
+
+                        <thead>
+                            <tr>
+                                <th>Batch</th>
+                                <th>Subject</th>
+                                <th>Faculty</th>
+                                <th>Unscheduled Count</th>
+                                <th>Reason</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="unscheduledBody">
+
+                            <tr>
+                                <td colspan="5">Loading analysis...</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CAMPUS RESOURCES -->
+
+        <section id="resources" class="section">
+
+            <div class="section-header">
+                <div>
+                    <h2>Campus Resources</h2>
+                    <p>Faculty and classroom information</p>
+                </div>
+            </div>
+
+
+            <div class="resource-grid">
+
+                <div class="resource-card">
+
+                    <div class="resource-heading">
+                        <h3>Faculty Information</h3>
+                        <span id="facultyCount">-- Members</span>
+                    </div>
+
+                    <ul id="facultyList" class="resource-list">
+                        <li>Loading faculty...</li>
+                    </ul>
+
+                </div>
+
+
+                <div class="resource-card">
+
+                    <div class="resource-heading">
+                        <h3>Classroom Information</h3>
+                        <span id="classroomCount">-- Rooms</span>
+                    </div>
+
+                    <ul id="classroomList" class="resource-list">
+                        <li>Loading classrooms...</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+
+        <footer>
+
+            <h3>CampusOpti AI</h3>
+
+            <p>
+                AI-Powered Campus Timetable and Resource Optimisation System
+            </p>
+
+            <p>
+                Developed using Python, Machine Learning,
+                Genetic Algorithm and OR-Tools CP-SAT
+            </p>
+
+        </footer>
+
+    </main>
+
+</div>
+
+</body>
+</html>
