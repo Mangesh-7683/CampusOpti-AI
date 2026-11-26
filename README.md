@@ -10,7 +10,7 @@
 
 Traditional timetable preparation involves multiple constraints, including faculty availability, classroom capacity, batch schedules, lecture requirements and laboratory requirements.
 
-CampusOpti AI addresses these challenges using optimization algorithms to generate efficient academic schedules while minimizing scheduling conflicts and maximizing the number of scheduled lectures.
+AI 4 Campus addresses these challenges using optimization algorithms to generate efficient academic schedules while minimizing scheduling conflicts and maximizing the number of scheduled lectures.
 
 The system combines **Greedy Algorithm, Genetic Algorithm and Google OR-Tools CP-SAT** to explore and compare different optimization approaches.
 
