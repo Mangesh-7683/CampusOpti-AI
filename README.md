@@ -1,12 +1,12 @@
-# 🎓 CampusOpti AI
+ AI 4 Campus
 
-### Intelligent Campus Timetable & Resource Optimization System
+ Intelligent Campus Timetable & Resource Optimization System
 
 
 
-## 📌 Overview
+ Overview
 
-**CampusOpti AI** is an intelligent campus timetable and resource optimization system designed to automate the complex process of academic timetable generation.
+ AI 4 Campus is an intelligent campus timetable and resource optimization system designed to automate the complex process of academic timetable generation.
 
 Traditional timetable preparation involves multiple constraints, including faculty availability, classroom capacity, batch schedules, lecture requirements and laboratory requirements.
 
@@ -16,7 +16,7 @@ The system combines **Greedy Algorithm, Genetic Algorithm and Google OR-Tools CP
 
 It also provides an interactive web dashboard for monitoring scheduling performance, analyzing unscheduled lectures and viewing campus resources.
 
-## 🎯 Project Objectives
+ Project Objectives
 
 - Automate academic timetable generation.
 - Minimize faculty, classroom and student batch scheduling conflicts.
@@ -26,7 +26,7 @@ It also provides an interactive web dashboard for monitoring scheduling performa
 - Identify and explain unscheduled lectures.
 - Provide an interactive dashboard for timetable analysis.
 
-## ✨ Key Features
+Key Features
 
 ### 1. Intelligent Timetable Generation
 
@@ -57,7 +57,7 @@ It also provides an interactive web dashboard for monitoring scheduling performa
 - Maximizes the number of scheduled lectures.
 - Identifies infeasible or unscheduled lecture requirements.
 
-### 3. Constraint Validation
+ 3. Constraint Validation
 
 The system considers constraints such as:
 
@@ -81,7 +81,7 @@ The dashboard provides five major sections:
 | Unscheduled Lecture Analysis | Explains lectures that could not be scheduled            |
 | Campus Resources             | Displays faculty and classroom information               |
 
-## 📊 Optimization Results
+## Optimization Results
 
 The project was tested using the following academic scheduling dataset:
 
@@ -126,7 +126,7 @@ The system identified the following scheduling limitation:
 
 The system provides an explanation instead of silently ignoring unscheduled lecture requirements.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Category                | Technologies                        |
 | ----------------------- | ----------------------------------- |
@@ -141,7 +141,7 @@ The system provides an explanation instead of silently ignoring unscheduled lect
 | API Testing             | FastAPI Swagger UI                  |
 | Development Environment | Anaconda, Jupyter Notebook, VS Code |
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```text
              CAMPUSOPTi AI
@@ -175,7 +175,7 @@ The system provides an explanation instead of silently ignoring unscheduled lect
 ## 📂 Project Structure
 
 ```text
-CampusOpti-AI/
+ AI 4 Campus
 │
 ├── backend/
 │   └── main.py
@@ -208,7 +208,7 @@ CampusOpti-AI/
 
 ## ⚙️ Installation & Setup
 
-Follow these steps to run CampusOpti AI locally.
+Follow these steps to run  AI 4 Campus locally.
 
 ### Prerequisites
 
